@@ -70,7 +70,7 @@ select * from
 tb_personagem inner join tb_classe
 on tb_personagem.classe_id = tb_classe.id
 where tb_classe.id = 3
-order by tb_personagem.id;;
+order by tb_personagem.id;
 
 
 
