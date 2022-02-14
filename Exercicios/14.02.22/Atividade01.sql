@@ -56,16 +56,21 @@ order by poderDeDefesa asc;
 select * from tb_personagem where poderDeDefesa >= 1000 and poderDeDefesa <= 2000
 order by poderDeDefesa asc;
 
+select * from tb_personagem where poderDeDefesa between 1000 and 2000
+order by poderDeDefesa asc;
+
 select * from tb_personagem where nome like "%c%";
 
 select * from 
 tb_personagem inner join tb_classe
-on tb_personagem.classe_id = tb_classe.id;
+on tb_personagem.classe_id = tb_classe.id
+order by tb_personagem.id;
 
 select * from 
 tb_personagem inner join tb_classe
 on tb_personagem.classe_id = tb_classe.id
-where tb_classe.id = 3;
+where tb_classe.id = 3
+order by tb_personagem.id;;
 
 
 
