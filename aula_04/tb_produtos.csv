@@ -1,0 +1,6 @@
+id;nome;quantidade;preco;cor;validade;tb_categoria_id
+1;Abacaxi;40;5.49;Amarela;2022-05-16;1
+2;Manga;50;51.99;Vermelha;2022-03-15;2
+3;Banana;30;2.99;Amarela;2022-04-14;3
+4;Morango;100;8.99;Vermelha;2022-02-25;1
+
